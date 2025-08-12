@@ -246,9 +246,8 @@ Quite a few things to implement, but hopefully will get through them all.
 | dimmer | 0x01      | rotate left           | Done     |                                                                                    |
 | dimmer | 0x02      | rotate right          | Done     |                                                                                    |
 |        |           |                       |          |                                                                                    |
-| misc   | 0x00      | packet id             |          |                                                                                    |
-|        |           |                       |          |                                                                                    |
-| device | 0xF0      | device type id        |          |                                                                                    |
-| device | 0xF1      | firmware version      |          |                                                                                    |
-| device | 0xF2      | firmware version      |          |                                                                                    |
+| misc   | 0x00      | packet id             | Done     | credit [@the78mole](https://github.com/the78mole)                                  |
+| device | 0xF0      | device type id        | Done     | credit [@the78mole](https://github.com/the78mole)                                  |
+| device | 0xF1      | firmware version      | Done     | credit [@the78mole](https://github.com/the78mole)                                  |
+| device | 0xF2      | firmware version      | Done     | credit [@the78mole](https://github.com/the78mole)                                  |
 
