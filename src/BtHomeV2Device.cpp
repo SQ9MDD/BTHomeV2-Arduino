@@ -32,12 +32,12 @@ bool BtHomeV2Device::addPacketId(uint8_t packetId)
 bool BtHomeV2Device::addFirmwareVersion3(uint8_t major, uint8_t minor, uint8_t patch)
 {
     uint32_t fwVersion = major << 16 | minor << 8 | patch;
-    return _baseDevice.addUnsignedInteger(device_type_ID, fwVersion);
+    return _baseDevice.addUnsignedInteger(firmware_3_bytes, fwVersion);
 }
 bool BtHomeV2Device::addFirmwareVersion4(uint8_t major, uint8_t minor, uint8_t patch, uint8_t build)
 {
     uint32_t fwVersion = major << 24 | minor << 16 | patch << 8 | build;
-    return _baseDevice.addUnsignedInteger(device_type_ID, fwVersion);
+    return _baseDevice.addUnsignedInteger(firmware_4_bytes, fwVersion);
 }
 
 bool BtHomeV2Device::addTemperature_neg44_to_44_Resolution_0_35(float degreesCelsius)
